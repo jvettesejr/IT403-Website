@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>Feedback</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="/~jmv1012/styles/style1.css" />
+	<style>
+	</style>
+  </head>
+  <div class="top">
+	<header>
+		<h1>My Custom PC Build</h1>
+	</header>
+	<nav>
+	  <ul class="topnav">
+		<li><a href="/../~jmv1012/index.html">Home</a></li>
+		<li><a href="page1.html">Specs</a></li>
+		<li><a href="page2.html">Pictures</a></li>
+		<li><a href="cpu.html">CPU</a></li>
+		<li><a href="gpu.html">Graphics</a></li>
+		<li><a href="links.html">Links</a></li>
+		<li><a href="form.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="mid">
+  <main>
+	<h2>Please Give Me Some Feedback</h2>
+    <form action="http://amgilder.wcit.cs.unh.edu/cgi-bin/test403" method="post">
+		<p>What was your favorite part of the site?<br/>
+			<input name="text" type="text"></p>
+		<p>Which processor would you choose?<br/>
+			<input type="radio" name="cpu" id="i5" value="i5-6600k" checked="checked"/> 
+			<label for="i5">i5-6600k</label><br/>
+			<input type="radio" name="cpu" id="i7" value="i7-6700k"/> 
+			<label for="i7">i7-6700k</label><br/>
+			<input type="radio" name="cpu" id="ot" value="other"/>
+			<label for="ot">Other</label></p>
+		<p>What brands do I have in my computer build?<br/>
+			<input name="brand" id="msi" value="msi" type="checkbox"/>
+			<label for="msi">Msi</label><br/>
+			<input name="brand" id="asus" value="asus" type="checkbox"/>
+			<label for="asus">Asus</label><br/>
+			<input name="brand" id="amd" value="amd" type="checkbox"/>
+			<label for="amd">AMD</label><br/>
+			<input name="brand" id="evga" value="evga" type="checkbox"/>
+			<label for="evga">EVGA</label></p>
+		<p>Which component should I upgrade next?<br/>
+			<select name="upgrade" size="3">
+				<option selected="selected">Case</option>
+				<option>Motherboard</option>
+				<option>RAM</option>
+				<option>Processor</option>
+				<option>GPU</option>
+				<option>Power Supply</option>
+			</select></p>
+		<p>Which component do you think is the most valuable<br/>
+			<select name="valuable">
+				<option selected="selected">CPU</option>
+				<option>Motherboard</option>
+				<option>RAM</option>
+				<option>Liquid Cooling</option>
+				<option>GPU</option>
+				<option>Monitor</option>
+			</select></p>
+		<p>Other input:<br/>
+			<textarea name="other" rows="4" cols="50"></textarea></p>
+		<p><input type="submit" value="Submit"></p>
+	</form>
+  </main>
+  <footer>
+    <p>Created by: Jason Vettese</p>
+    <a href="mailto:jmv1012@wildcats.unh.edu">Contact Me!</a>
+	<br/>
+	<a href="http://itcourses.cs.unh.edu/403/news">IT403 Homepage</a>
+	<br/>
+  </footer>
+  </div>
+</html>
