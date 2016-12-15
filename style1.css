@@ -1,0 +1,166 @@
+
+	h3 {
+		color:#656565;
+		text-align: center;
+	}
+	#head {
+		color:#376767; 
+		font-size:200%; 
+		height: 100%;
+		padding: 5px;
+    }
+	.hilite {background-color:#FFFF00;}
+	a:link    {color:#003366;text-decoration:none;}
+    a:hover   {color:#656565;text-decoration:underline;}
+	span {color:#FF00FF;}
+	span.hilite{font-weight:bold;}
+	
+	
+	.top {
+		
+		top: 0px;
+		left: 0px;
+		padding: 0; 
+		position: fixed;
+		width: 100%;
+		max-width: 2160px; 
+		text-align: center;
+		color: #FFFFFF;
+		height: 150px;
+		background-color: #000000;
+		display: inline-block;
+		z-index: 1;
+		
+	}
+	
+	.mid {
+		margin: 150px;
+		border: 5px;
+		padding: 1px;
+		
+	}
+	
+	.foot {
+		margin: 5px;
+		
+		z-index: -1;
+	}
+	
+	.midl {
+		margin: 155px;
+		border:	5px solid #FF0000;
+	}
+
+	
+	body {
+		background-color: #F0F0F0;
+	}
+	
+	ul.topnav {
+		
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		text-align: center;
+		display: inline-block;
+		
+	}
+	ul.topnav li {
+		float: left;
+	}
+	
+	ul.topnav li a {
+		display: inline-block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		transition: 0.1s;
+		font-size: 17px;
+
+	}
+	
+	ul.topnav li a:hover {
+		color: #FF0000;
+	}
+	
+	ul.link {
+		
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		text-align: center;
+		display: inline-block;
+		
+	}
+	ul.link li {
+		float: left;
+	}
+	
+	ul.link li a {
+		display: inline-block;
+		color: #FFFFFF;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		transition: 0.1s;
+		font-size: 17px;
+
+	}
+	
+	ul.link li a:hover {
+		color: #FF0000;
+	}
+		
+	.main {
+		text-align: left;
+	}
+	
+	img {
+		display: block;
+		margin: auto;
+		width: 40%;
+	}
+	
+	.pic {
+		position: absolute;
+		z-index: 0;
+	}
+	
+	.benc {
+		float: left;
+		position: relative;
+		clear: left;
+		overflow: auto;
+	}
+	
+	.case {
+		float: right;
+	
+	}
+	
+	.fot1 {
+		border: 3px solid #FF0000;
+		text-align: right;
+		background-color: #FF0000;
+	}
+	/* 
+		//page 1
+	
+	h2 {color:#FFFFFF;}
+		ul {color:#FFFFFF;}
+		#main {background-color:#500000;color:#FFFF00;}
+		a:visited {color:#555555;text-decoration:none;}
+		a:active {color:#CC3333;text-decoration:underline;}
+		ol li {font-style:italic;}
+		
+		//page 2
+		
+	span {background-color:#FFFF00;}
+		.notice {color:#666666;}
+		span.notice{font-style:italic;}
+		h2 {color:#00FF00}
+		
+		*/
