@@ -1,6 +1,6 @@
 # IT403-Website
   
-Website created on my personal computer build as apart of a project
+Website created on my personal computer build for a class project
 
 Experimented using:
   CSS
